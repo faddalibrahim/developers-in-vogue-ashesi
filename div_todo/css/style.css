@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: #222;
+  padding: 30px;
+  color: #aaa;
+  font-family: sans-serif;
+  height: 70vh;
+  width: 50vw;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+#task-parent {
+  height: 60%;
+  overflow-y: scroll;
+}
+
+input {
+  background-color: #333;
+  outline: none;
+  border: none;
+  padding: 12px;
+  color: #aaa;
+  font-family: sans-serif;
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+  background-color: #333;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+}
