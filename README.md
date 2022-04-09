@@ -55,17 +55,19 @@
 
 - [x] Open newly created folder in vscode
 
-- [x] Launch your terminal from the top of your editor
+- [x] Launch your terminal from the top of your vscode as shown below
 
 ![terminal](assets/terminal.png)
 
-- [x] By default its going to be **powershell**. Chage it to **bash** by clicking on the dropdown and selecting **git bash** as shown below
+- [x] By default its going to be **powershell**. Change it to **git bash** by clicking on the dropdown and selecting **git bash** in the dropdown list.
 
 ![changing to git bash](assets/terminal-2.png)
 
-### Diving into Git Commands
+---
 
-#### Tell git to track changes in our project folder ( we do this once for every new project)
+#### 1. Tell git we want to track changes in our project folder ( we do this once for every new project )
+
+In the terminal,
 
 ```py
 git init
@@ -75,7 +77,7 @@ Create a new file (.html or .py) and fill it with some content
 
 ---
 
-#### Checking the status of our project folder
+#### 2. Checking the status of our project folder
 
 ```py
 git status
@@ -87,7 +89,7 @@ _Staging Area is an intermediary stage for changes we plan to commit_
 
 ---
 
-#### Adding our file to the staging area
+#### 3. Adding our file to the staging area
 
 ```py
 git add .
@@ -95,13 +97,13 @@ git add .
 
 ---
 
-#### Checking the status of our project folder again (after adding the file to the staging area)
+#### 4. Checking the status of our project folder again ( after adding the file to the staging area )
 
 ```py
 git status
 ```
 
-This time around the name of our file should be shown in green, implying that its in the staging area and ready to be committed
+This time around the name of our file should be shown in green, implying that its in the staging area and ready for commit.
 
 ---
 
@@ -110,8 +112,23 @@ This time around the name of our file should be shown in green, implying that it
 ```py
 git commit -m "type your commit message here"
 
-# for example, if we added a new function to calculate sum of numbers
+# for example, if the change we made was to add a new function to calculate sum of odd numbers
 
-git commit -m "add function to calculate sum of numbers"
+git commit -m "add function to calculate sum of odd numbers"
 
+```
+
+---
+
+If you face an error about identity, do this one after the other
+( its for git to track who is making the commit )
+
+```py
+# configuring your username
+git config --global user.name "your mame"
+example : git config --global user.name wendy
+
+# configuring your email
+git config --global user.name "your email"
+example: git config --global user.name wendy@gmail.com
 ```
