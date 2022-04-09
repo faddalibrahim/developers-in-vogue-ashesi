@@ -112,11 +112,13 @@ This time around the name of our file should be shown in green, implying that it
 ```py
 git commit -m "type your commit message here"
 
-# for example, if the change we made was to add a new function to calculate sum of odd numbers
+# for example, if the change we made was about a new function to calculate sum of odd numbers
 
 git commit -m "add function to calculate sum of odd numbers"
 
 ```
+
+NB: the commit message should be with respect to the changes we made for easy tracking later on. Its a like a summary of the changes made.
 
 ---
 
@@ -131,4 +133,23 @@ example : git config --global user.name wendy
 # configuring your email
 git config --global user.name "your email"
 example: git config --global user.name wendy@gmail.com
+```
+
+---
+
+Repeat the above steps a few times (successive changes, staging and commits to the file ) in order to get used to the flow
+
+---
+
+To view all the commits made so far
+
+```py
+git log
+
+```
+
+or for a summarized log,
+
+```py
+git log --oneline
 ```
