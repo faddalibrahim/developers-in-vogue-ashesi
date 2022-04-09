@@ -44,3 +44,19 @@
 ## Week 2
 
 [flexboxfroggy](https://flexboxfroggy.com/)
+
+## Week 3
+
+### Git & Github
+
+- [x] Download and install [gitbash](https://git-scm.com/downloads)
+
+Create a new folder
+
+Open newly created folder in vscode
+
+Open your terminal from the top of your editor
+![terminal](assets/terminal.png)
+
+By default its going to be **powershell**. Chage it to **bash** by clicking on the dropdown and selecting _bash_ as shown below
+![changing to git bash](assets/terminal-2.png)
