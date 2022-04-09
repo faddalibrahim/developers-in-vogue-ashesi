@@ -55,9 +55,10 @@
 
 - [x] Open newly created folder in vscode
 
-- [x] Laucnh your terminal from the top of your editor
+- [x] Launch your terminal from the top of your editor
 
 ![terminal](assets/terminal.png)
 
-By default its going to be **powershell**. Chage it to **bash** by clicking on the dropdown and selecting _bash_ as shown below
+- [x] By default its going to be **powershell**. Chage it to **bash** by clicking on the dropdown and selecting **bash** as shown below
+
 ![changing to git bash](assets/terminal-2.png)
