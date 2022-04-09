@@ -65,9 +65,9 @@
 
 ### Diving into Git Commands
 
-Tell git to track changes in our opened folder, we use ( we do this once for every new project folder)
+#### Tell git to track changes in our project folder ( we do this once for every new project)
 
-```git
+```py
 git init
 ```
 
@@ -75,28 +75,43 @@ Create a new file (.html or .py) and fill it with some content
 
 ---
 
-```git
+#### Checking the status of our project folder
+
+```py
 git status
 ```
 
-Infomation about the state of the files in the folder should be displayed. The file previously created would be displayed and colored red, implying that its yet to be moved to the **staging area**
+Infomation about the state of the files in the folder should be displayed. The file previously created would be displayed and colored red, implying that its been modified but yet to be moved to the **staging area**
 
 _Staging Area is an intermediary stage for changes we plan to commit_
 
 ---
 
-Now let's add our file to the staging are
+#### Adding our file to the staging area
 
-```git
+```py
 git add .
 ```
 
 ---
 
-Let's check the status of our project folder
+#### Checking the status of our project folder again (after adding the file to the staging area)
 
-```git
+```py
 git status
 ```
 
-This time around, our file should be green, implying that its in the staging area and ready to be committed
+This time around the name of our file should be shown in green, implying that its in the staging area and ready to be committed
+
+---
+
+#### Time to commit
+
+```py
+git commit -m "type your commit message here"
+
+# for example, if we added a new function to calculate sum of numbers
+
+git commit -m "add function to calculate sum of numbers"
+
+```
