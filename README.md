@@ -59,6 +59,44 @@
 
 ![terminal](assets/terminal.png)
 
-- [x] By default its going to be **powershell**. Chage it to **bash** by clicking on the dropdown and selecting **bash** as shown below
+- [x] By default its going to be **powershell**. Chage it to **bash** by clicking on the dropdown and selecting **git bash** as shown below
 
 ![changing to git bash](assets/terminal-2.png)
+
+### Diving into Git Commands
+
+Tell git to track changes in our opened folder, we use ( we do this once for every new project folder)
+
+```git
+git init
+```
+
+Create a new file (.html or .py) and fill it with some content
+
+---
+
+```git
+git status
+```
+
+Infomation about the state of the files in the folder should be displayed. The file previously created would be displayed and colored red, implying that its yet to be moved to the **staging area**
+
+_Staging Area is an intermediary stage for changes we plan to commit_
+
+---
+
+Now let's add our file to the staging are
+
+```git
+git add .
+```
+
+---
+
+Let's check the status of our project folder
+
+```git
+git status
+```
+
+This time around, our file should be green, implying that its in the staging area and ready to be committed
