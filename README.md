@@ -51,11 +51,12 @@
 
 - [x] Download and install [gitbash](https://git-scm.com/downloads)
 
-Create a new folder
+- [x] Create a new folder
 
-Open newly created folder in vscode
+- [x] Open newly created folder in vscode
 
-Open your terminal from the top of your editor
+- [x] Laucnh your terminal from the top of your editor
+
 ![terminal](assets/terminal.png)
 
 By default its going to be **powershell**. Chage it to **bash** by clicking on the dropdown and selecting _bash_ as shown below
